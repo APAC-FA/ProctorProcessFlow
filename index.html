@@ -1,1 +1,250 @@
 # ProctorProcessFlow
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Proctor Operations: Process Flows and Escalation Procedures — Approval Draft</title>
+<style>
+  :root { --ink:#202b36; --muted:#5e6b78; --line:#d7dee5; --soft:#f3f6f8; --accent:#1d5d73; --accent-soft:#eaf3f6; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: Arial, Helvetica, sans-serif; color:var(--ink); line-height:1.55; background:#edf1f4; }
+  .page { max-width:1000px; margin:28px auto; padding:44px 54px; background:white; box-shadow:0 2px 14px #00000012; }
+  header { border-bottom:3px solid var(--accent); padding-bottom:20px; margin-bottom:28px; }
+  .eyebrow { color:var(--accent); font-weight:700; text-transform:uppercase; letter-spacing:.08em; font-size:12px; }
+  h1 { font-size:30px; line-height:1.2; margin:8px 0; }
+  h2 { font-size:22px; margin:34px 0 10px; padding-bottom:7px; border-bottom:1px solid var(--line); color:var(--accent); }
+  h3 { font-size:16px; margin:22px 0 8px; }
+  p { margin:8px 0 12px; }
+  .meta { color:var(--muted); font-size:13px; }
+  .notice { background:#fff8e7; border-left:4px solid #d4a12a; padding:12px 15px; margin:18px 0; }
+  .purpose-scope { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:14px 0 18px; }
+  .panel { border:1px solid var(--line); border-radius:7px; padding:12px 14px; }
+  .panel h3 { margin:0 0 5px; }
+  .step { border:1px solid var(--line); border-radius:7px; padding:14px 16px; margin:12px 0; break-inside:avoid; }
+  .step h3 { margin:0 0 8px; }
+  .message { border-left:3px solid var(--accent); background:var(--accent-soft); padding:10px 13px; margin:8px 0; }
+  .decision { margin:8px 0 0; padding-left:18px; }
+  table { width:100%; border-collapse:collapse; margin:12px 0 18px; font-size:14px; }
+  th, td { border:1px solid var(--line); padding:10px 11px; text-align:left; vertical-align:top; }
+  th { background:var(--soft); }
+  .template { background:var(--soft); border:1px solid var(--line); border-radius:6px; padding:12px 14px; white-space:pre-line; }
+  .example { font-size:13px; color:var(--muted); }
+  footer { border-top:1px solid var(--line); margin-top:36px; padding-top:12px; font-size:12px; color:var(--muted); }
+  .toc { background:var(--soft); border-radius:7px; padding:15px 20px; }
+  .toc li { margin:5px 0; }
+  @media (max-width:650px) { .page { margin:0; padding:24px 18px; } .purpose-scope { grid-template-columns:1fr; } h1 { font-size:25px; } }
+  @media print {
+    body { background:white; }
+    .page { max-width:none; margin:0; padding:0; box-shadow:none; }
+    .no-print { display:none !important; }
+    h2 { break-after:avoid; }
+    a { color:inherit; text-decoration:none; }
+  }
+</style>
+</head>
+<body>
+<main class="page">
+<header>
+  <div class="eyebrow">Certiverse • Proctor Operations</div>
+  <h1>Proctor Operations: Process Flows and Escalation Procedures</h1>
+  <p><strong>Approval Draft — Session Issues, ID Verification, and Cancellation Handling</strong></p>
+  <p class="meta">Status: Pending review and approval · Document owner: Proctor Operations · Version: Draft 1.0</p>
+</header>
+
+<div class="notice"><strong>Review note:</strong> This document consolidates five procedures into a consistent format for approval. Please verify client-specific requirements, cancellation dropdown reasons, and session-closing permissions before publishing.</div>
+
+<h2>Contents</h2>
+<div class="toc">
+  <ol>
+    <li>Test Taker Does Not Have a Valid Government-Issued ID</li>
+    <li>Name on ID Does Not Match the Reservation</li>
+    <li>Candidate Is Not in a Private Testing Area</li>
+    <li>Candidate Disconnects After the Exam Has Been Released</li>
+    <li>Recurring Screen-Sharing Disconnections</li>
+    <li>Standard APAC Team GC Reporting Format</li>
+</ol>
+</div>
+
+<h2>1. Test Taker Does Not Have a Valid Government-Issued ID</h2>
+<div class="purpose-scope">
+  <div class="panel"><h3>Purpose</h3>To guide proctors in handling test takers who cannot provide a valid government-issued ID or present an expired ID.</div>
+  <div class="panel"><h3>Scope</h3>Applies when a test taker cannot provide a valid physical government-issued ID required for the exam.</div>
+</div>
+<div class="step">
+  <h3>Step 1 — Request another valid ID</h3>
+  <div class="message">Please provide another valid government-issued ID. You must present a valid physical government-issued ID to test today.</div>
+  <ul class="decision">
+    <li><strong>If yes:</strong> The test taker provides another valid ID. Continue with the required check-in process.</li>
+    <li><strong>If no:</strong> Proceed to Step 2.</li>
+  </ul>
+</div>
+<div class="step">
+  <h3>Step 2 — Inform the test taker and request confirmation</h3>
+  <div class="message">If you do not have another valid ID available, please contact support@certiverse.com for further assistance. Unfortunately, we will need to cancel this session. Please confirm.</div>
+</div>
+<div class="step">
+  <h3>Step 3 — Capture the chat history</h3>
+  Take a screenshot of the chat history. Ensure all personally identifiable information (PII) is hidden.
+</div>
+<div class="step">
+  <h3>Step 4 — Cancel the session</h3>
+  Once the test taker confirms, cancel the session using the appropriate cancellation reason from the dropdown.
+</div>
+<div class="step">
+  <h3>Step 5 — Document and close</h3>
+  Post the session details in the APAC Team GC using the standard reporting format in Section 6. Then close the session in Proctor Hub, in accordance with the applicable procedure.
+</div>
+
+<h2>2. Name on ID Does Not Match the Reservation</h2>
+<div class="purpose-scope">
+  <div class="panel"><h3>Purpose</h3>To guide proctors in handling discrepancies between the name on the test taker’s government-issued ID and the name on the exam reservation.</div>
+  <div class="panel"><h3>Scope</h3>Applies when the name on the ID is misspelled, incorrect, or does not match the reservation.</div>
+</div>
+<table>
+  <thead><tr><th>Step</th><th>Action</th><th>Instructions</th></tr></thead>
+  <tbody>
+    <tr><td>1</td><td>Request another ID</td><td>Ask: “Do you have another valid government-issued ID?” If another valid ID matches the reservation, continue check-in. Otherwise, proceed to Step 2.</td></tr>
+    <tr><td>2</td><td>Check the Name-Change Policy</td><td>Review the <strong>Name-Change Policy</strong> tab to determine whether the client permits a name change.</td></tr>
+    <tr><td>3A</td><td>Name change permitted</td><td>Send the message below, notify CS of the request, and follow the approved name-change process.</td></tr>
+    <tr><td>3B</td><td>Name change not permitted</td><td>Inform the test taker that the session must be canceled and request confirmation. Then proceed with the applicable cancellation process.</td></tr>
+    <tr><td>4</td><td>Capture chat history</td><td>Take a screenshot and ensure all PII is hidden.</td></tr>
+    <tr><td>5</td><td>Complete the action</td><td>For a name change, refresh the dashboard after CS confirms completion and inform the test taker. For cancellation, request manual cancellation from CS or the Manager on Duty, as applicable.</td></tr>
+    <tr><td>6</td><td>Document and close</td><td>Post the required details in the APAC Team GC and close the session in Proctor Hub according to the applicable procedure.</td></tr>
+  </tbody>
+</table>
+<h3>Message — Name change permitted</h3>
+<div class="message">Unfortunately, the name on your ID does not match the name registered for this reservation. Per Certiverse rules, the name on your ID must fully match the exam reservation. Please contact support@certiverse.com to request a name change.</div>
+<h3>Message — Name change not permitted</h3>
+<div class="message">Unfortunately, we will need to cancel this session. Please contact support@certiverse.com for further assistance with rescheduling. Please confirm.</div>
+<p><strong>Important:</strong> Do not proceed with the exam until the name discrepancy is resolved in accordance with the client’s policy.</p>
+
+<h2>3. Candidate Is Not in a Private Testing Area</h2>
+<div class="purpose-scope">
+  <div class="panel"><h3>Purpose</h3>To guide proctors in handling test takers who cannot remain in a private testing area throughout the exam.</div>
+  <div class="panel"><h3>Scope</h3>Applies when the test taker cannot meet the private testing area requirement for the entire exam.</div>
+</div>
+<div class="step">
+  <h3>Step 1 — Confirm the testing area</h3>
+  <div class="message">You are required to be in a private testing area for the entire duration of the exam.</div>
+  <ul class="decision">
+    <li><strong>If yes:</strong> The test taker can remain in a private testing area. Continue check-in.</li>
+    <li><strong>If no:</strong> Proceed to Step 2.</li>
+  </ul>
+</div>
+<div class="step">
+  <h3>Step 2 — Request cancellation confirmation</h3>
+  <div class="message">Unfortunately, we will need to cancel this session. Please email support@certiverse.com for further assistance with rescheduling. Please confirm.</div>
+  <p>Once the test taker confirms, send:</p>
+  <div class="message">Thank you! You may close this session now.</div>
+</div>
+<div class="step">
+  <h3>Step 3 — Notify Client Support</h3>
+  A manual cancellation must be handled by CS or the Manager on Duty. Notify CS using this template:
+  <div class="template">Test Taker / Exam Code:
+Concern: Unable to provide a private testing area.
+Request: Please review and process the manual cancellation.</div>
+</div>
+<div class="step">
+  <h3>Step 4 — Document and close</h3>
+  <ul>
+    <li>Document all actions taken and relevant details.</li>
+    <li>Follow the guidance provided by CS or the Manager on Duty.</li>
+    <li>Post the session details in the APAC Team GC using the standard reporting format in Section 6.</li>
+    <li>Close the session in Proctor Hub according to CS/PM instructions.</li>
+  </ul>
+</div>
+
+<h2>4. Candidate Disconnects After the Exam Has Been Released</h2>
+<div class="purpose-scope">
+  <div class="panel"><h3>Purpose</h3>To provide steps for handling candidates who disconnect after their exam has been released and do not immediately reconnect.</div>
+  <div class="panel"><h3>Scope</h3>Applies when a candidate disconnects after exam release and does not immediately return to the session.</div>
+</div>
+<table>
+  <thead><tr><th>Step</th><th>Situation</th><th>Required action</th></tr></thead>
+  <tbody>
+    <tr><td>1</td><td>Candidate disconnects</td><td>Wait up to <strong>20 minutes</strong> for the candidate to reconnect.</td></tr>
+    <tr><td>2A</td><td>Candidate reconnects within 20 minutes</td><td>Continue the exam as required.</td></tr>
+    <tr><td>2B</td><td>Candidate does not reconnect within 20 minutes</td><td>Notify CS using the template below. Document all actions taken and relevant details.</td></tr>
+    <tr><td>3</td><td>CS confirms the session should end</td><td>End the session using the reason provided by CS.</td></tr>
+    <tr><td>4</td><td>AI-Assisted session; no contact from candidate or Support</td><td>Keep the session open in Proctor Hub until the exam duration ends. Once the duration has ended, remove or close the session in Proctor Hub.</td></tr>
+  </tbody>
+</table>
+<h3>CS notification template</h3>
+<div class="template">Test Taker / Exam Code:
+Concern: Candidate disconnected after exam release and did not reconnect within 20 minutes.
+Request: Please review the session and advise on the next steps.</div>
+<p><strong>Important:</strong> Do not end the session without CS confirmation when confirmation is required by the applicable procedure. Follow the reason and instructions provided by CS.</p>
+
+<h2>5. Recurring Screen-Sharing Disconnections</h2>
+<div class="purpose-scope">
+  <div class="panel"><h3>Purpose</h3>To guide proctors in troubleshooting repeated screen-sharing disconnections and escalating persistent technical issues.</div>
+  <div class="panel"><h3>Scope</h3>Applies when a candidate repeatedly loses screen sharing, camera, or microphone connectivity during an exam.</div>
+</div>
+<div class="step">
+  <h3>Step 1 — Ask the test taker to refresh the browser</h3>
+  <div class="message">We are no longer able to hear or see you. Please refresh your browser and ensure your camera, microphone, and screen are being shared properly.</div>
+  <ul class="decision">
+    <li><strong>If resolved:</strong> Proceed with or resume the exam.</li>
+    <li><strong>If the issue persists:</strong> Proceed to Step 2.</li>
+  </ul>
+</div>
+<div class="step">
+  <h3>Step 2 — Ask the test taker to relaunch the session</h3>
+  <p>Ask the test taker to close the current browser and relaunch the session from the exam dashboard using another supported browser. Ensure no external monitors are connected.</p>
+  <div class="message">It seems you are experiencing issues with your session. Can you please close this browser and relaunch your session from the exam dashboard?</div>
+  <ul class="decision">
+    <li><strong>If resolved:</strong> Proceed with or resume the exam.</li>
+    <li><strong>If the issue persists:</strong> Proceed to Step 3.</li>
+  </ul>
+</div>
+<div class="step">
+  <h3>Step 3 — Send a warning</h3>
+  <div class="message">We have noticed that your screen sharing has stopped multiple times. Please be advised that if this happens again, we may need to end your exam. Maintaining exam integrity is important to us.</div>
+  <p>If the issue continues, proceed to Step 4.</p>
+</div>
+<div class="step">
+  <h3>Step 4 — Document and escalate to CS</h3>
+  Document all troubleshooting steps and notify CS using this template:
+  <div class="template">Test Taker / Exam Code:
+Issue: Recurring screen-sharing disconnections.
+Troubleshooting steps completed:
+- Browser refresh
+- Relaunched session using another supported browser
+- Checked external monitor connections</div>
+</div>
+<div class="step">
+  <h3>Step 5 — Follow CS instructions</h3>
+  <ul>
+    <li>If CS confirms that the session should end, end the session using the reason provided by CS.</li>
+    <li>Post the required session details in the APAC Team GC using the standard reporting format in Section 6.</li>
+    <li>Follow the applicable Proctor Hub closing procedure.</li>
+  </ul>
+</div>
+
+<h2>6. Standard APAC Team GC Reporting Format</h2>
+<p>Use this format for session cancellations and technical incidents where APAC Team GC reporting is required.</p>
+<div class="template">Test Taker Initial (Reservation Code)
+Exam Name and Code
+Reason | Exam Time</div>
+<h3>Example</h3>
+<div class="template">A (8A8-D3F)
+HashiCorp Certified: Terraform Associate (004)
+Reason for cancellation | 01:00 PM</div>
+<p class="example">For recurring technical issues, use an appropriate reason, such as: “Test taker technical issue | 01:00 PM.”</p>
+
+<h2>Approval Checklist</h2>
+<ul>
+  <li>Confirm the exact cancellation reason dropdown options.</li>
+  <li>Confirm whether ID-mismatch cases require manual cancellation only.</li>
+  <li>Confirm whether Proctor Hub closure requires explicit CS/PM confirmation for each scenario.</li>
+  <li>Confirm the terminology for “Manager on Duty” / “PM on duty.”</li>
+  <li>Confirm all messages align with current client and exam policies.</li>
+</ul>
+
+<footer>
+  Internal review draft for approval. This document is a formatted consolidation of the procedures provided and should be validated against current client-specific policies before publication.
+</footer>
+</main>
+</body>
+</html>
